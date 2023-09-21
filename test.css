@@ -1,0 +1,488 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+#navbar{
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+   background-color: pink;
+position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 65px;
+}
+h2{
+    font-size: 22px;
+    margin-left: 40px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h4{
+    font-size: 22px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#page1{
+    position: absolute;
+    right: 180px;
+}
+#page2{
+    position: absolute;
+    right: 40px;
+}
+#howto{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 400px;
+    background-color: white;
+    border-radius: 30px;
+}
+#howtoplay{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 500px;
+    background-color: white;
+    border-radius: 30px;
+}
+#input{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 400px;
+    background-color: white;
+    border-radius: 30px;
+}
+#text1{
+    width: 50%;
+    text-align: center;
+}
+#text3{
+    width: 80%;
+    text-align: center;
+}
+#text2{
+    width: 50%;
+    text-align: center;
+}
+#blank{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(36, 36, 36, 0.479);
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+#blank2{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(36, 36, 36, 0.479);
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+#blank0{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(36, 36, 36, 0.479);
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+#blank3{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(36, 36, 36, 0.479);
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+#blank4{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(36, 36, 36, 0.479);
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+#inputbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+}
+#value{font-size: 20px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+#continue{
+    width: 150px;
+    height: 30px;
+    color: white;
+    border: 0;
+    background-color: palevioletred;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+#close{
+    width: 150px;
+    height: 30px;
+    color: white;
+    border: 0;
+    background-color: palevioletred;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+#next{
+    width: 150px;
+    height: 30px;
+    color: white;
+    border: 0;
+    background-color: palevioletred;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+#next3{
+    width: 150px;
+    height: 30px;
+    color: white;
+    border: 0;
+    background-color: palevioletred;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+#next2{
+    width: 150px;
+    height: 30px;
+    color: white;
+    border: 0;
+    background-color: palevioletred;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+#topbar{
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+    justify-self: center;
+    flex-direction: row;
+    width: 100%;
+}
+#keypad{
+    margin-top: 50px;
+    display: flex;
+align-items: center;
+justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 60%;
+
+}
+h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+#box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#box2{
+    background-color: rgb(57, 57, 57);
+    box-shadow: 5px 5px 15px gray;
+    width: 450px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#plabel{
+font-weight: bold;
+font-size: 20px;
+}
+#progress{
+    height: 30px;
+    width: 300px;
+    
+}
+#instruction{
+    position: absolute;
+    right: 50px;
+    background-color: rgb(57, 57, 57);
+    color: white;
+    border: 0;
+    height: 25px;
+    width: 100px;
+    border-radius: 10px;
+}
+#pageno{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: rgb(57, 57, 57);
+    width: 100px;
+    height: 30px;
+    color: white;
+    position: absolute;
+    left: 40px;
+}
+#row1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 40px;
+}
+#row2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 40px;
+}
+#row3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 40px;
+}
+.key{
+    width: 80px;
+    height: 50px;
+    padding-top: 30px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 2px 2px black;
+}
+#slide{
+    background-color: rgb(57, 57, 57);
+    box-shadow: 5px 5px 15px gray;
+    width: 450px;
+    border-radius: 30px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    row-gap: 50px;
+}
+#slider1{
+    height: 30px;
+    width: 300px;
+    
+}
+#slider3{
+    height: 30px;
+    width: 300px;
+    
+}
+#slider2{
+    height: 30px;
+    width: 300px;
+    
+}
+#hole1{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: gray;
+    position: absolute;
+    margin-left: 50px;
+    box-shadow: 1px 1px black;
+}
+#hole2{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: gray;
+    position: absolute;
+    margin-left: 150px;
+    box-shadow: 1px 1px black;
+}
+#hole3{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: gray;
+    position: absolute;
+    margin-left: 250px;
+    box-shadow: 1px 1px black;
+}
+#hole4{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: gray;
+    position: absolute;
+    margin-left: 50px;
+    box-shadow: 1px 1px black;
+}
+#hole5{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: gray;
+    position: absolute;
+    margin-left: 150px;
+    box-shadow: 1px 1px black;
+}
+#hole6{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: gray;
+    position: absolute;
+    margin-left: 250px;
+    box-shadow: 1px 1px black;
+}
+#hole7{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: gray;
+    position: absolute;
+    margin-left: 50px;
+    box-shadow: 1px 1px black;
+}
+#hole8{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: gray;
+    position: absolute;
+    margin-left: 150px;
+    box-shadow: 1px 1px black;
+}
+#hole9{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: gray;
+    position: absolute;
+    margin-left: 250px;
+    box-shadow: 1px 1px black;
+}
+#side1{
+    display: flex;
+    align-items: center;
+}
+#buttonbox{
+    background-color: rgb(57, 57, 57);
+    box-shadow: 5px 5px 15px gray;
+    width: 450px;
+    border-radius: 30px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+}
+#button{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+#bvalue{font-size: 30px; }
+#result{
+
+    box-shadow: 5px 5px 15px gray;
+    width: 450px;
+    border-radius: 30px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+    row-gap: 50px;
+    
+}
+#box3{
+    display: flex;
+    align-items: center;
+    row-gap: 30px;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -100px;
+}
+#resultp{
+    height: 30px;
+    width: 300px;
+}
+h5{
+    font-size: 3rem;
+}
+#save2{
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: palevioletred;
+    border-radius: 20px;
+    border: 0;
+}
+
+@media screen and (max-width: 900px) {
+    #howto{
+width: 500px;
+    }
+    #howtoplay{
+        width: 500px;
+            }
+    #input{
+        width: 500px;
+            }
+}
+@media screen and (max-width: 600px) {
+    #blank{
+background-color: white;
+    }
+    #blank0{
+        background-color: white;
+            }  
+     #blank2{
+        background-color: white;
+            } 
+    #blank3{
+        background-color: white;
+            }    
+ #blank4{
+     background-color: white;
+        }                 
+}
+@media screen and (max-width: 750px) {
+#progress{
+    width: 200px;
+}
+}
+@media screen and (max-width: 600px) {
+    #progress{
+display: none;
+    }
+    }

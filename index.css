@@ -1,0 +1,349 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+#navbar{
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+   background-color: pink;
+position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 65px;
+}
+h2{
+    font-size: 22px;
+    margin-left: 40px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#page1{
+    position: absolute;
+    right: 180px;
+}
+#page2{
+    position: absolute;
+    right: 40px;
+}
+h1{
+    font-size: 4vw;
+    text-align: center;
+   margin-top: 100px;
+}
+#mainimg{
+    width: 100%;
+    height: auto;
+    margin-top: 55px;
+}
+#maintextdiv{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: calc(70px + 1vw);
+    right: 100px;
+}
+#maintext{
+    font-size: calc(7px + 1vw);
+    text-align: center;
+}
+h3{
+    text-align: center;
+    font-size: 3rem;
+}
+#option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+#option1:hover{background-image: url(stylus\ 2\ box.png);}
+#option2:hover{background-image: url(stylus\ 3\ box.png);}
+#option3:hover{background-image: url(stylus\ 4\ box.png);}
+#option1{
+width: 30%;
+height: 31vw;
+background-image: url(stylus2.png);
+background-size: 100%;
+background-repeat: no-repeat;
+}
+#option2{
+width: 30%;
+    margin-left: 5%;
+    height: 31vw;
+    background-image: url(stylus\ 3.png);
+background-size: 100%;
+background-repeat: no-repeat;
+}
+#option3{
+    width: 30%;
+    margin-left: 5%;
+    height: 31vw;
+    background-image: url(stylus\ 4.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: 0;
+}
+#explore{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+#first{
+    display: flex;
+    width: 30%;
+height: 400px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(255, 20, 20, 0.822);
+}
+#second{
+    display: flex;
+    width: 30%;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    flex-direction: column;
+    background-color: rgba(0, 76, 255, 0.824);
+}
+#third{
+    display: flex;
+    width: 30%;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    flex-direction: column;
+    background-color: rgba(255, 153, 0, 0.824);
+}
+#fourth{
+    display: flex;
+    width: 30%;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(255, 20, 20, 0.822);
+}
+#fifth{
+    display: flex;
+    width: 30%;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    flex-direction: column;
+    background-color: rgba(0, 76, 255, 0.824);
+}
+#sixth{
+    display: flex;
+    width: 30%;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    flex-direction: column;
+    background-color: rgba(255, 153, 0, 0.824);
+}
+#text1{
+    width: 300px;
+    font-size: 20px;
+}
+#text2{
+    width: 300px;
+    font-size: 20px;
+}
+#text3{
+    width: 300px;
+    font-size: 20px;
+}
+button{
+    width: 100px;
+    height: 25px;
+    margin-top: 150px;
+}
+#textarea1:hover{
+    display: none;
+}
+#textarea2:hover{
+    display: none;
+}
+#textarea3:hover{
+    display: none;
+}
+#textarea1{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.21);
+    height: 400px;
+    width: 30%;
+    position: absolute;
+}
+#textarea2{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.21);
+    height: 400px;
+    width: 30%;
+    position: absolute;
+}
+#textarea3{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.21);
+    height: 400px;
+    width: 30%;
+    position: absolute;
+}
+#textarea4{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.21);
+    height: 400px;
+    width: 30%;
+    position: absolute;
+}
+#textarea5{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.21);
+    height: 400px;
+    width: 30%;
+    position: absolute;
+}
+#textarea6{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.21);
+    height: 400px;
+    width: 30%;
+    position: absolute;
+}
+#icon{
+    font-size: 5vw;
+}
+
+@media screen and (max-width: 1100px) {
+    #first{
+        height: 300px;
+    }
+    #first{
+        height: 300px;
+    }
+    #second{
+        height: 300px;
+    }
+    #third{
+        height: 300px;
+    }
+    #fourth{
+        height: 300px;
+    }
+    #fifth{
+        height: 300px;
+    }
+    #sixth{
+        height: 300px;
+    }
+    #textarea1{
+        height: 300px;
+    }
+    #textarea2{
+        height: 300px;
+    }
+    #textarea3{
+        height: 300px;
+    }
+    #textarea4{
+        height: 300px;
+    }
+    #textarea5{
+        height: 300px;
+    }
+    #textarea6{
+        height: 300px;
+    }
+    #text1{font-size: 15px; width: 200px;}
+    #text2{font-size: 15px; width: 200px;}
+    #text3{font-size: 15px; width: 200px;}
+}
+
+@media screen and (max-width: 900px) {
+  #explore{
+    flex-direction: column;
+  }  
+#first{
+    margin-left: 0;
+    width: 70%;
+}
+#second{
+    margin-left: 0;
+    margin-top: 50px;
+    width: 70%;
+}
+#third{
+    margin-left: 0;
+    margin-top: 50px;
+    width: 70%;
+}
+#fourth{
+    margin-left: 0;
+    margin-top: 50px;
+    width: 70%;
+}
+#fifth{
+    margin-left: 0;
+    margin-top: 50px;
+    width: 70%;
+}
+#sixth{
+    margin-left: 0;
+    margin-top: 50px;
+    width: 70%;
+}
+#textarea1{
+    width: 70%;
+}
+#textarea2{
+    width: 70%;
+}
+#textarea3{
+    width: 70%;
+}
+#textarea4{
+    width: 70%;
+}
+#textarea5{
+    width: 70%;
+}
+#textarea6{
+    width: 70%;
+}
+}
+@media screen and (max-width: 900px) {
+#option{
+flex-direction: column;
+}
+#option1{width: 50%; height: 53vw;}
+#option2{width: 50%; height: 53vw; margin-left: 0; margin-top: 50px;}
+#option3{width: 50%; height: 53vw; margin-left: 0; margin-top: 50px;}
+}
+
